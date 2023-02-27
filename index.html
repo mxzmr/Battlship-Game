@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <dialog class="game-start-modal">
+      <button class="game-start-button">Start a Game</button>
+    </dialog>
+    <h1 class="header">Battleship-Game</h1>
+    <div class="game-boards">
+      <div class="player-grid-container">
+        <div class="game-board-player1"></div>
+        <h2>Player Board</h2>
+      </div>
+      <div class="bot-grid-container">
+        <div class="game-board-player2"></div>
+        <h2>AI Board</h2>
+      </div>
+    </div>
+    <dialog class="game-over-modal">
+      <h1 class="game-over-modal__header">Game over!</h1>
+      <button type="reset" class="game-over-modal-button">Reset Game</button>
+    </dialog>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
